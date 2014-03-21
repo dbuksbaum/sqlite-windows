@@ -1,0 +1,17 @@
+<h1>SQLite Build in Visual Studio</h1>
+
+<p>I needed a 64 bit Windows DLL of Visual Studio with some compile 
+time settings set, and I could not find one - so I made this project.</p>
+
+<p>I am just using the <a href="http://www.sqlite.org/download.html">SQLite Amalgamation</a>.</p>
+
+<p>The current version is 3.8.4.1.</p>
+
+<p>The <a href="http://www.sqlite.org/compile.html">compile time options</a> set are:
+  *SQLITE<em>API=</em><em>declspec(dllexport)
+  *SQLITE</em>ENABLE<em>FTS4
+  *SQLITE</em>ENABLE<em>FTS3</em>PARENTHESIS</p>
+
+<p>This sets the define needed to export from the DLL, and tells
+the compiler to include the <a href="http://www.sqlite.org/fts3.html#fts4">Full Text Search 4</a> in
+the build.</p>

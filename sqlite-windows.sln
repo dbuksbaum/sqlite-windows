@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sqlite-dll", "sqlite\sqlite.vcxproj", "{E596D853-9AED-4F97-AEB8-511ED45B24CA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sqlite3", "sqlite3\sqlite3.vcxproj", "{2EF81BB5-4C7C-4DD7-AF83-C6C596D5087E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D3D5BA46-87A5-4A27-88CB-7B163FFC4A2D}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E596D853-9AED-4F97-AEB8-511ED45B24CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E596D853-9AED-4F97-AEB8-511ED45B24CA}.Debug|Win32.Build.0 = Debug|Win32
+		{E596D853-9AED-4F97-AEB8-511ED45B24CA}.Debug|x64.ActiveCfg = Debug|x64
+		{E596D853-9AED-4F97-AEB8-511ED45B24CA}.Debug|x64.Build.0 = Debug|x64
+		{E596D853-9AED-4F97-AEB8-511ED45B24CA}.Release|Win32.ActiveCfg = Release|Win32
+		{E596D853-9AED-4F97-AEB8-511ED45B24CA}.Release|Win32.Build.0 = Release|Win32
+		{E596D853-9AED-4F97-AEB8-511ED45B24CA}.Release|x64.ActiveCfg = Release|x64
+		{E596D853-9AED-4F97-AEB8-511ED45B24CA}.Release|x64.Build.0 = Release|x64
+		{2EF81BB5-4C7C-4DD7-AF83-C6C596D5087E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2EF81BB5-4C7C-4DD7-AF83-C6C596D5087E}.Debug|Win32.Build.0 = Debug|Win32
+		{2EF81BB5-4C7C-4DD7-AF83-C6C596D5087E}.Debug|x64.ActiveCfg = Debug|x64
+		{2EF81BB5-4C7C-4DD7-AF83-C6C596D5087E}.Debug|x64.Build.0 = Debug|x64
+		{2EF81BB5-4C7C-4DD7-AF83-C6C596D5087E}.Release|Win32.ActiveCfg = Release|Win32
+		{2EF81BB5-4C7C-4DD7-AF83-C6C596D5087E}.Release|Win32.Build.0 = Release|Win32
+		{2EF81BB5-4C7C-4DD7-AF83-C6C596D5087E}.Release|x64.ActiveCfg = Release|x64
+		{2EF81BB5-4C7C-4DD7-AF83-C6C596D5087E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
