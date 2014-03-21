@@ -8,10 +8,11 @@ time settings set, and I could not find one - so I made this project.</p>
 <p>The current version is 3.8.4.1.</p>
 
 <p>The <a href="http://www.sqlite.org/compile.html">compile time options</a> set are:
-  *SQLITE<em>API=</em><em>declspec(dllexport)
-  *SQLITE</em>ENABLE<em>FTS4
-  *SQLITE</em>ENABLE<em>FTS3</em>PARENTHESIS</p>
+  * SQLITE<em>API=</em><em>declspec(dllexport)
+  * SQLITE</em>ENABLE<em>FTS4
+  * SQLITE</em>ENABLE<em>FTS3</em>PARENTHESIS
+  * SQLITE<em>ENABLE</em>COLUMN_METADATA</p>
 
-<p>This sets the define needed to export from the DLL, and tells
+<p>This sets the define needed to export from the DLL, tells
 the compiler to include the <a href="http://www.sqlite.org/fts3.html#fts4">Full Text Search 4</a> in
-the build.</p>
+the build, and includes the additional APIs for meta-data about tables and queries.</p>

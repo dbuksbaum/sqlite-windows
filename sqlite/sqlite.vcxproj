@@ -103,7 +103,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;SQLITE_API=__declspec(dllexport);SQLITE_ENABLE_FTS4;SQLITE_ENABLE_FTS3_PARENTHESIS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;SQLITE_API=__declspec(dllexport);SQLITE_ENABLE_FTS4;SQLITE_ENABLE_FTS3_PARENTHESIS;SQLITE_ENABLE_COLUMN_METADATA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
     </ClCompile>
     <Link>
@@ -139,7 +139,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;SQLITE_API=__declspec(dllexport);SQLITE_ENABLE_FTS4;SQLITE_ENABLE_FTS3_PARENTHESIS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;SQLITE_API=__declspec(dllexport);SQLITE_ENABLE_FTS4;SQLITE_ENABLE_FTS3_PARENTHESIS;SQLITE_ENABLE_COLUMN_METADATA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MultiProcessorCompilation>false</MultiProcessorCompilation>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
     </ClCompile>

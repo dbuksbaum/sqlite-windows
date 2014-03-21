@@ -97,7 +97,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;SQLITE_ENABLE_FTS4;SQLITE_ENABLE_FTS3_PARENTHESIS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;SQLITE_ENABLE_FTS4;SQLITE_ENABLE_FTS3_PARENTHESIS;SQLITE_ENABLE_COLUMN_METADATA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>C:\Users\david\Dropbox\Development\projects\sqlite-windows\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -130,7 +130,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;SQLITE_ENABLE_FTS4;SQLITE_ENABLE_FTS3_PARENTHESIS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;SQLITE_ENABLE_FTS4;SQLITE_ENABLE_FTS3_PARENTHESIS;SQLITE_ENABLE_COLUMN_METADATA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>C:\Users\david\Dropbox\Development\projects\sqlite-windows\sqlite;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
